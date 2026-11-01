@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GitHub Profile Finder</h1>
+    <p class="subtitle">Search any GitHub user to see their profile and latest repositories.</p>
+
+    <form id="search-form">
+      <input type="text" id="username" placeholder="Enter a GitHub username..." autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+
+    <p class="try">
+      Try:
+      <a href="#" class="example">ranimmohemd06-droid</a>
+      <a href="#" class="example">gaearon</a>
+      <a href="#" class="example">sindresorhus</a>
+    </p>
+
+    <p id="message"></p>
+
+    <div id="profile"></div>
+
+    <h2>Latest repositories</h2>
+    <div id="repos"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
